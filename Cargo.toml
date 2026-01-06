@@ -1,0 +1,16 @@
+[package]
+name = "roading"
+version = "0.0.1-alpha"
+edition = "2021"
+
+[build-dependencies]
+cc = "1.0"
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+
+
+[profile.release]
+panic = "abort"
